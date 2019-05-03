@@ -17,9 +17,6 @@ def fast_prime(number):
 
     if number % 2 == 0:
         return False
-    
-    if number == 1459:
-        return True
 
     maiorraiz = int(math.ceil(math.sqrt(number)))
     # Recebe o maior valor da raiz quadrada do numero
